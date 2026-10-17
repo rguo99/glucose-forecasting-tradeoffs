@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Clinical and Statistical Metrics Reveal Tradeoffs in Glucose Forecasting for Type 1 Diabetes Decision Support"
+type: software
+license: MIT
+version: 1.0.0
+authors:
+  - family-names: Guo
+    given-names: Rachel
+preferred-citation:
+  type: article
+  title: "Clinical and Statistical Metrics Reveal Tradeoffs in Glucose Forecasting for Type 1 Diabetes Decision Support"
+  authors:
+    - family-names: Guo
+      given-names: Rachel
+    - family-names: Levine
+      given-names: Matthew E.
+    - family-names: Wu
+      given-names: Dongxia
+    - family-names: Zaharieva
+      given-names: Dessi P.
+    - family-names: Lal
+      given-names: Rayhan A.
+    - family-names: Fox
+      given-names: Emily B.
+    - family-names: Johari
+      given-names: Ramesh
+  year: 2026

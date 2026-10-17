@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Results, caches and logs (written under $RESULTS_DIR, default ./output)
+output/
+logs/
+
+# Data never belongs in this repository
+*.pkl
+*.parquet
+*.csv
+*.xpt
+*.zip
+*.png
+*.pdf

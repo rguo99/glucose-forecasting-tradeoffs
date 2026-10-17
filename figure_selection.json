@@ -1,0 +1,12 @@
+{
+  "_comment": "Instances shown in the qualitative figures, identified by T1DEXI user id and window start time. Resolved to instance ids at run time (figure_selection.py), because instance ids depend on the preprocessing build.",
+  "qualitative": {
+    "MEAL":          {"user_id": 58,  "time_series_start": "2019-07-05 16:10:00"},
+    "CARB_INSTANCE": {"user_id": 11,  "time_series_start": "2020-02-05 21:30:05"},
+    "CORRECTION":    {"user_id": 166, "time_series_start": "2020-07-20 10:50:00"},
+    "STABLE":        {"user_id": 707, "time_series_start": "2019-06-01 00:40:00"}
+  },
+  "scorecard": {
+    "INSTANCE":      {"user_id": 829, "time_series_start": "2020-02-02 11:10:00"}
+  }
+}

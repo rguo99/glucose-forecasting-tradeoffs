@@ -1,0 +1,32 @@
+# Environment used for all model fitting and evaluation in the paper.
+# GPU build: the jax-cuda12-plugin and torch wheels bundle their own CUDA 12
+# runtime; an NVIDIA driver supporting CUDA 12 is required.
+# For a CPU-only environment use requirements-cpu.txt instead.
+#
+#   conda env create -f environment.yml
+#   conda activate glucose-forecasting
+name: glucose-forecasting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.14
+  - numpy=2.3.4
+  - pip
+  - pip:
+      - jax==0.7.0
+      - jaxlib==0.7.0
+      - jax-cuda12-plugin==0.7.0
+      - numpyro==0.19.0
+      - optax==0.2.6
+      - torch==2.6.0
+      - arviz==0.22.0
+      - pandas==2.3.2
+      - scipy==1.16.2
+      - scikit-learn==1.7.2
+      - matplotlib==3.10.7
+      - pillow==12.2.0
+      - ray==2.51.1
+      - properscoring==0.1
+      - psutil==7.1.2
+      - tqdm==4.67.1
+      - pyarrow==20.0.0
